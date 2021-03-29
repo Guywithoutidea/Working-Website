@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name"viewport" comtent="width=device-width, initial-scale=1.0">
+    <title> Computer science </title>
+    <link rel="icon" href="img\icond.png">
+    <link rel="stylesheet" href="css\stylebas.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <div class="topnav">
+      <a class="home"
+      href="compsci.html">
+      <img src=img\icon.png width="55px" height="55px" >
+      </a>
+      <a href="binary.html">Binary</a>
+      <a href="basic.html">Basic Operations</a>
+      <a href="ram.html">Memory</a>
+      <a href="comp.html">Complex Operations</a>
+      <a href="index.html" class="return">Return</a>
+    </div>
+</head>
+
+  <body>
+    <div class="bod">
+      <p id="title">Complex Operations</p>
+      <p id="left">Complex Operations are operations that the CPU cannot execute on it's own. This includes operations that require multiple logic circuits. The way computers complete these operations is by: Loading a Value (from Memory), Executeing a simple Operation (NOT, AND, OR, etc- just one), Load result to Memory- Then repeat. This allows for operations such as Subtraction, Multiplication, Exponents, Line drawing, etc- which require recursive and repetitive calculations.</p>
+      <p id="right">Examples:</p>
+      <br>
+      <ul id="listr">
+        <li id="listr">Multiplication: Computers cannot multiply- but they can add. So, the ALU will add 'y' to 'y' 'x' number of times. For an explanation (that is far better than mine) check <a href="https://en.wikipedia.org/wiki/Multiplication_algorithm#Binary_multiplication_in_computers">this</a> out</li>
+        <li id="listr">Subtraction: Computers cannot subtract either- but they can 'comprehend' negative numbers. A negative number can be found by inverting a number (call it y), then adding one. This causes an overflow (a number 1 bit or more larger than the computer can comprehend) but in this case we can ignore it. Then, adding the result (-y) to x, we get x-y. A better explanation: <a href="https://en.wikipedia.org/wiki/Subtraction#:~:text=In%20computing,-The%20method%20of&text=To%20subtract%20a%20binary%20number,the%20result%20is%20then%20discarded.">Wikipedia</a></li>
+        <li id="listr">From this point complex equations get beyond my understanding- try (for a start) searching up 'How do Computers Divide?'<li>
+      </ul>
+    </div>
+  </body>
+</html>

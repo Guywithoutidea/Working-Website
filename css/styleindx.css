@@ -1,0 +1,188 @@
+body {
+  text-align: center;
+  font-family: "Calibri Light", monospace;
+  background-color: #fff;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+
+
+/* parallax background- needs image to be specified in css
+
+AND slashes must be '/' slashes */
+
+
+
+/*Highlight box around image icons*/
+
+#frame {
+  box-shadow: 0 0 4px 4px #d3d3d3;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+#one  {
+  float: left;
+  margin: 30px;
+}
+
+#two  {
+  float: right;
+  margin: 30px;
+}
+
+/*Title*/
+
+video {
+  box-shadow: 0 0 4px 4px #d3d3d3;
+}
+
+
+.asi {
+  float: left;
+  background-color: #33ccff;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+}
+
+
+.asi:hover {
+  background-color: grey;
+  color: white;
+}
+
+/*Default body- float to left*/
+
+
+/*Default body- no float*/
+
+.bod  {
+  text-align: center;
+  background-color: #e3170a;
+  color: #fff;
+  font-family: "Calibri Light", monospace;
+  padding: 10px;
+  font-size: 30px;
+  line-height: 35px;
+  width: 1030px;
+  height: 470px;
+  margin: 0 auto;
+  box-shadow: 0 0 4px 4px #d3d3d3;
+  background-image: url("../img/white.jpg");
+  /* Set a specific height */
+  min-height: 555px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bod #list{
+  font-size: 20px;
+  text-align: left;
+}
+
+.bod #title  {
+  font-size: 60px;
+  text-align: center;
+  font-family: "Julius Sans One", monospace;
+  font-weight: bolder;
+  line-height: 65px;
+}
+
+.foot  {
+  line-height: 15px;
+  color: #e3170a;
+  padding: 2px;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Calibri Light", monospace;
+  background-color: #e3170a;
+  box-shadow: 0 0 4px 4px #d3d3d3;
+  height: 70px;
+  width: 1045px;
+  background-image: url("../img/white.jpg");
+  /* Set a specific height */
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.left {
+  float: left;
+  width: 200px;
+  height: 300px;
+  box-shadow: 0px 0px 4px 4px #2c3531;
+  margin: 20px;
+}
+
+.right {
+  float: right;
+  width: 200px;
+  height: 320px;
+  box-shadow: 0px 0px 4px 4px #2c3531;
+  margin: 20px;
+}
+
+/*Navigation bar*/
+
+.topnav {
+  margin-top: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0px 0px 4px 4px #d3d3d3;
+  margin-bottom: 50px;
+}
+
+/* Links */
+.topnav a {
+  margin: 0 auto;
+  float: left;
+  color: #0f0f0f;
+  text-align: center;
+  padding: 25px;
+  height: 80px;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a.return {
+  float: right;
+  background-color: #e3170a;
+  padding: 20px;
+  color: #fff;
+  margin: 0 auto;
+  height: 80px;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* Change the color of links on hover- white on black */
+.topnav a:hover {
+  color: #e3170a;
+  background-color: inherit;
+  font-weight: bolder;
+}
+
+/* Add a color to the active/current link- light blue background */
+.topnav a.home {
+  background-color: #e3170a;
+  padding: 10px;
+  margin: 0 auto;
+  float: left;
+  font-size: 40px;
+  text-decoration: none;
+  color: #fff;
+}

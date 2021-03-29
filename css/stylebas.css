@@ -1,0 +1,159 @@
+body {
+  text-align: center;
+  font-family: "Calibri Light", monospace;
+  background-color: #fff;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+/*Highlight box around image icons*/
+
+#frame {
+  box-shadow: 0 0 4px 4px #d4eeff;
+}
+
+/*Title*/
+
+
+.asi {
+  float: left;
+  background-color: #33ccff;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+}
+
+
+.asi:hover {
+  background-color: grey;
+  color: white;
+}
+
+/*Default body- float to left*/
+
+
+/*Default body- no float*/
+
+.bod  {
+  text-align: center;
+  background-color: #4265ff;
+  color: #c6e6fb;
+  font-family: "Calibri Light", monospace;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 28px;
+  line-height: 35px;
+  width: 1300px;
+  height: 470px;
+  margin: 0 auto;
+  box-shadow: 0 0 4px 4px #d4eeff;
+}
+
+.bod #title  {
+  font-size: 50px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Julius Sans One", monospace;
+  line-height: 45px;
+  font-weight: bolder;
+}
+
+.bod #left  {
+  float: left;
+  width: 620px;
+}
+
+.bod #right  {
+  float: right;
+  width: 620px;
+}
+
+.bod #listr {
+  float: right;
+  width: 620px;
+  text-align: left;
+  font-size: 2.5vh;
+  line-height: 2.6vh
+}
+
+.foot  {
+  line-height: 15px;
+  color: #c6e6fb;
+  padding: 2px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Calibri Light", monospace;
+  background-color: #4265FF;
+  box-shadow: 0 0 4px 4px #d4eeff;
+  height: 80px;
+  width: 600px;
+  margin: 20px auto;
+}
+
+.foot a {
+  color: #c6e6fb;
+  padding: 2px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Calibri Light", monospace;
+  height: 80px;
+  width: 600px;
+  margin: 0px auto;
+  text-decoration: none;
+}
+
+/*Navigation bar*/
+
+.topnav {
+  margin-top: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0px 0px 4px 4px #d4eeff;
+  margin-bottom: 50px;
+}
+
+/* Links */
+.topnav a {
+  margin: 0 auto;
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 25px;
+  height: 80px;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a.return {
+  float: right;
+  background-color: #4265FF;
+  padding: 20px;
+  color: #fff;
+  margin: 0 auto;
+  height: 80px;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* Change the color of links on hover- white on black */
+.topnav a:hover {
+  color: #4265ff;
+  background-color: inherit;
+  font-weight: bolder;
+}
+
+/* Add a color to the active/current link- light blue background */
+.topnav a.home {
+  background-color: #4265ff;
+  padding: 10px;
+  margin: 0 auto;
+  color: #c6e6fb;
+}
